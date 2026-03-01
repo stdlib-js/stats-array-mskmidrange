@@ -50,6 +50,11 @@ The [**mid-range**][mid-range] is defined as the arithmetic mean of the maximum 
 ## Usage
 
 ```javascript
+import mskmidrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-mskmidrange@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-array-mskmidrange/tags). For example,
+
+```javascript
 import mskmidrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-mskmidrange@v0.0.0-deno/mod.js';
 ```
 
@@ -94,7 +99,7 @@ The function has the following parameters:
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@deno/mod.js';
-import mskmidrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-mskmidrange@v0.0.0-deno/mod.js';
+import mskmidrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-mskmidrange@deno/mod.js';
 
 var x = uniform( 10, -50.0, 50.0, {
     'dtype': 'float64'
